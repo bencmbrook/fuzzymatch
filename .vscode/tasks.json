@@ -23,5 +23,7 @@
       "label": "npm: test",
       "detail": "jest"
     }
-  ]
+  ],
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
 }

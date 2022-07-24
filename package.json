@@ -35,9 +35,13 @@
     "esbuild": "^0.14.38",
     "eslint": "^8.14.0",
     "jest": "27.0.0",
+    "prettier": "^2.7.1",
     "ts-jest": "^27.1.4",
     "ts-node": "^10.7.0",
     "typedoc": "^0.22.15",
     "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "fastest-levenshtein": "^1.0.14"
   }
 }
