@@ -1,9 +1,15 @@
-import { greet } from './main';
+import { LEVENSHTEIN, ZLOOKUP } from './main';
 
-test('the data is peanut butter', () => {
-  expect(1).toBe(1);
+describe('distance', () => {
+  test('equals', () => {
+    expect(LEVENSHTEIN('cat', 'bat')).toEqual(1);
+  });
 });
 
-test('greeting', () => {
-  expect(greet('Foo')).toBe('Hello Foo');
+describe('closest', () => {
+  test('matches', () => {
+    expect(
+      ZLOOKUP('Test', [['Camel'], ['Testing'], ['Robots'], ['Boop']], 0),
+    ).toEqual('Testing');
+  });
 });

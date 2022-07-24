@@ -28,6 +28,8 @@
     "esbuild-node:watch": "esbuild src/cli.ts --bundle --platform=node --watch --sourcemap=external --outfile=dist/esbuild/cli.js"
   },
   "devDependencies": {
+    "@google/clasp": "^2.4.1",
+    "@types/google-apps-script": "^1.0.53",
     "@types/jest": "^27.4.1",
     "@types/node": "^17.0.26",
     "@typescript-eslint/eslint-plugin": "^5.20.0",
