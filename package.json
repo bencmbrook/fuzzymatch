@@ -1,15 +1,10 @@
 {
-  "name": "typescript-boilerplate-2021",
-  "version": "0.4.2",
-  "description": "Boilerplate for TypeScript projects (Node.js and browser modules)",
-  "author": "Chris Hager <chris@linuxuser.at>",
-  "repository": "https://github.com/metachris/typescript-boilerplate",
-  "license": "MIT",
-  "keywords": [
-    "typescript",
-    "boilerplate",
-    "esbuild"
-  ],
+  "name": "fuzzymatch",
+  "version": "0.0.0",
+  "description": "Fuzzy Lookup for Google Sheets",
+  "author": "Ben Brook",
+  "repository": "https://github.com/bencmbrook/fuzzymatch",
+  "license": "UNLICENSED",
   "main": "./dist/tsc/main.js",
   "types": "./dist/tsc/main.d.ts",
   "browser": "./dist/esbuild/browser.js",
