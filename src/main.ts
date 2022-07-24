@@ -1,2 +1,1 @@
-import { distance, closest} from 'fastest-levenshtein';
-
+import { distance, closest } from 'fastest-levenshtein';
